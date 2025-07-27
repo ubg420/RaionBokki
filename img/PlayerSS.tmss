@@ -1,0 +1,34 @@
+{
+    "image": "Player",
+    "frame": {
+        "width":150,
+        "height":150,
+        "count": 6
+    },
+
+    "animations": {
+        "Kamae": {
+            "frames": [0],
+            "next": "Kamae",
+            "frequency": 3
+        },
+        "Nage": {
+            "frames": [1],
+            "next": "Nage",
+            "frequency": 2
+        },
+
+        "Run": {
+            "frames": [2,3,4],
+            "next": "Run",
+            "frequency": 2
+        },
+        "Kick": {
+            "frames": [5],
+            "next": "Kick",
+            "frequency": 3
+        }
+
+    }
+
+}

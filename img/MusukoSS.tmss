@@ -1,0 +1,43 @@
+{
+    "image": "Musuko",
+    "frame": {
+        "width":200,
+        "height":200,
+        "count": 5
+    },
+
+    "animations": {
+        "1": {
+            "frames": [0],
+            "next": "1",
+            "frequency": 3
+        },
+        "2": {
+            "frames": [1],
+            "next": "2",
+            "frequency": 2
+        },
+
+        "3": {
+            "frames": [2],
+            "next": "3",
+            "frequency": 2
+        },
+        "4": {
+            "frames": [3],
+            "next": "4",
+            "frequency": 3
+        },
+        "5": {
+            "frames": [4],
+            "next": "5",
+            "frequency": 3
+        },
+        "test": {
+            "frames": [0,1,2,3,4],
+            "next": "test",
+            "frequency": 20
+        }
+    }
+
+}
